@@ -38,10 +38,10 @@
 ++  poke
   |%
   ::  lift: record a lift
-  ::  drop: delete all lifts from today
+  ::  drop: delete all lifts from a day
   ::
   +$  lift  [=^lift =bell sets=(list set-)]
-  +$  drop  ~
+  +$  drop  @da
   --
 ::
 +$  agent-state
